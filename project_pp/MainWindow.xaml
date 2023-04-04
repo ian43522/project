@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:project_pp"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+    <Grid Background="White">
+        <StackPanel Height="100" VerticalAlignment="Top" Background="AliceBlue">
+            <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Padding="0 20 0 0" FontSize="30" FontFamily="Arial">Авторизация</TextBlock>
+        </StackPanel>
+        <Button Content="Войти" HorizontalAlignment="Left" Margin="280,316,0,0" VerticalAlignment="Top" Height="70" Width="264" FontSize="40" Background="AliceBlue" IsDefault="True" BorderBrush="Black" Click="Button_Click"/>
+        <TextBox x:Name="LoginBox" MaxLength="50" HorizontalAlignment="Left" Margin="220,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Height="40" FontSize="25"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="100,150,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" FontSize="25"/>
+        <PasswordBox x:Name="PasswodBox" MaxLength="50" HorizontalAlignment="Left" Margin="220,200,0,0" VerticalAlignment="Top" Width="120" Height="40" FontSize="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="280,390,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" TextDecorations="Underline">
+            <Hyperlink Click="TextBlock_Click" FontSize="15">Еще нет аккаунта? Зарегистрируйтесь!</Hyperlink>
+        </TextBlock>
     </Grid>
 </Window>

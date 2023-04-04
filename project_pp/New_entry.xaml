@@ -1,0 +1,25 @@
+﻿<Window x:Class="project_pp.New_entry"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:project_pp"
+        mc:Ignorable="d"
+        Title="New_entry" Height="400" Width="500">
+    <Grid>
+        <Button x:Name="Savebut" Height="40" Margin="0,267,202,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="80" Click="Savebut_Click_1">
+            Сохранить
+        </Button>
+        <TextBox x:Name="textbox_name" HorizontalAlignment="Left" Margin="188,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="26"/>
+        <TextBox x:Name="textbox_description" HorizontalAlignment="Left" Margin="188,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="26"/>
+        <TextBox x:Name="textbox_date_start" HorizontalAlignment="Left" Margin="188,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="26"/>
+        <TextBox x:Name="textbox_date_end" HorizontalAlignment="Left" Margin="188,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="26"/>
+        <TextBox x:Name="textbox_budget" HorizontalAlignment="Left" Margin="188,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="26"/>
+        <Label Content="Название проекта" HorizontalAlignment="Left" Margin="81,45,0,0" VerticalAlignment="Top"/>
+        <Label Content="Примечание" HorizontalAlignment="Left" Margin="81,81,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата начала" HorizontalAlignment="Left" Margin="81,118,0,0" VerticalAlignment="Top"/>
+        <Label Content="Дата конца" HorizontalAlignment="Left" Margin="81,153,0,0" VerticalAlignment="Top"/>
+        <Label Content="Бюджет" HorizontalAlignment="Left" Margin="81,188,0,0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Left" Height="223" Margin="23,21,0,0" Stroke="Black" VerticalAlignment="Top" Width="428"></Rectangle>
+    </Grid>
+</Window>
