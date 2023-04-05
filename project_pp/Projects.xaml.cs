@@ -17,15 +17,14 @@ using System.Windows.Shapes;
 
 namespace project_pp
 {
-    /// <summary>
-    /// Логика взаимодействия для Projects.xaml
-    /// </summary>
+    //и это мне?
     public partial class Projects : Window
     {
         DataBase dataBase = new DataBase();
         public Projects()
         {
             InitializeComponent();
+            Loaded += MyWindow_Loaded;
         }
 
         private void MyWindow_Loaded(object sender, RoutedEventArgs e)

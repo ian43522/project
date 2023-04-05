@@ -9,7 +9,7 @@ namespace project_pp.Model
 {
     internal class DataBase
     {
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ivanb\source\repos\project_pp\project_pp\DataBase\Database1.mdf;Integrated Security=True");
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=DataBase\Database1.mdf;Integrated Security=True");
 
         public void openConnecion()
         {
