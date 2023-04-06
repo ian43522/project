@@ -7,10 +7,7 @@ namespace project_pp.Views;
 /// </summary>
 public partial class RegisterView : UserControl
 {
-    public RegisterView()
-    {
-        InitializeComponent();
-    }
+    public RegisterView() => InitializeComponent();
     private void PasswordBox_PasswordChanged(object sender, RoutedEventArgs e)
     {
         if (this.DataContext != null)

@@ -14,6 +14,9 @@ namespace project_pp;
 public partial class App : Application
 {
     const string ConnectionString = @"Data Source=Database.db";
+    /// <summary>
+    /// Provider of application services.
+    /// </summary>
     public IServiceProvider Services { get; private set; }
     public App()
     {
